@@ -1,0 +1,30 @@
+# deps & build output
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# lockfiles (huge, no useful graph structure)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# generated types
+next-env.d.ts
+
+# binary assets
+logos/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+*.ico
+*.mp4
+*.pdf
+
+# misc
+.git/
+.vscode/
+.thumbnail

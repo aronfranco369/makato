@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+next-env.d.ts
+
+# local env files
+.env*.local
+
+# pasted screenshots, not source
+uploads
+
+# editor/build leftovers
+.thumbnail
+*.tsbuildinfo
